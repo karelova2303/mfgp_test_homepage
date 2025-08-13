@@ -1,4 +1,4 @@
-from mfgp_test_homepage.pages.page_homepage import HeaderPage, PageContent
+from mfgp_test_homepage.pages.page_mainpage import HeaderPage, PageContent
 
 
 class ApplicationManager:
