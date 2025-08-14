@@ -3,13 +3,13 @@
 <h3> Список UI проверок:</h3>
 
 ### Проверки, реализованные в автоматизированных тестах
-- [x] Xедер
+- [x] Xедер:
 - Проверка отображения логотипа
 - Проверка кликабельности кнопки "Навигатор"
 - Проверка кликабельности кнопки "Техническая поддержка"
 - Проверка кликабельности кнопки "Новости"
 - Проверка кликабельности кнопки "Войти"
-- [x] Виджеты подбора
+- [x] Виджеты подбора:
 - Проверка работы виджета "Подберите по ОГРН"
 - Проверка работы виджета "Пройдите опрос"
 - Проверка работы виджета "Подберите вручную"
@@ -27,8 +27,6 @@
     title="Selenium" alt="Selenium" width="40" height="40"/>&nbsp;  
   <img src="https://github.com/karelova2303/karelova2303/blob/main/media/icons/selene.png" 
     title="Selene" alt="Selene" width="50" height="50"/>&nbsp;
-  <img src="https://github.com/karelova2303/karelova2303/blob/main/media/icons/selenoid1.png" 
-    title="Selenoid" alt="Selenoid" width="40" height="40"/>&nbsp; 
   <img src="https://github.com/karelova2303/karelova2303/blob/main/media/icons/pycharm-original.svg" 
     title="PyCharm" alt="PyCharm" width="40" height="40"/>&nbsp;    
   <img src="https://github.com/karelova2303/karelova2303/blob/main/media/icons/Allure.svg" 
@@ -60,8 +58,6 @@ pytest -v
 ![allure_owerview](/resources/allure_owerview.png)
 ![allure_suites](/resources/allure_suites.png)
 ![allure_graf](/resources/allure_graf.png)
-
-
 
 
 ----
