@@ -6,7 +6,6 @@ from selene import browser, support
 from utils import attach
 
 
-
 @pytest.fixture(scope='session', autouse=True)
 def browser_manager():
     browser.config.base_url = 'https://promote.budget.gov.ru'
@@ -24,6 +23,6 @@ def attach_with_test():
     yield browser
 
     attach.add_screenshot(browser)
-    # attach.add_logs(browser)
+    attach.add_logs(browser)
     attach.add_html(browser)
     attach.add_video(browser)

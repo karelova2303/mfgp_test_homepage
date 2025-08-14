@@ -1,13 +1,6 @@
 import allure
 from selene import browser, be, have, command
 
-
-# class OpenPage:
-#
-#     def open_homepage(self):
-#         with allure.step('Открываем Главную страницу'):
-#             browser.open('/')
-
 class HeaderPage:
     def __init__(self):
         self.search_logo = browser.element('.header-logo')
